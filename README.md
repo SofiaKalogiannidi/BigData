@@ -1,1 +1,4 @@
 # BigData
+This assignment is consisted of 3 parts. In the first part , we have a dataset called 'train.csv' which has articles with their titles and texts. We create a wordcloud for every category (Entertainment,Technology,Business and Health) and afterwards with the aid of KNN algorithm and jaccard similarity we train our classification model and test it on 'test.csv' file.
+In the second part, we use an approximation algorithm called lsh in order not to compute jaccard similarity between every text with all the other texts in the dataset. This leads to a small decrease in accuracy but much faster training time. 
+Finally in the last part, we create our own dtw function and use 'dtw_test.csv' file which contains series a and series b. We then use our dtw function to find dtw between trajectories of series a with trajectories of series b. 
